@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-09 18:26+0000\n"
+"POT-Creation-Date: 2024-11-29 13:41+0000\n"
 "PO-Revision-Date: 2024-03-14 14:45+0000\n"
 "Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
@@ -947,8 +947,8 @@ msgstr "No puede transferir más de la demanda inicial!"
 #. odoo-python
 #: code:addons/stock_ux/models/stock_move_line.py:0
 #, python-format
-msgid "You can't transfer more quantity than reserved one!"
-msgstr "No puede transferir más cantidad que la reservada!"
+msgid "You can't transfer more quantity than the quantity on stock!"
+msgstr ""
 
 #. module: stock_ux
 #: model_terms:ir.ui.view,arch_db:stock_ux.custom_barcode_transfer_template_view_zpl
