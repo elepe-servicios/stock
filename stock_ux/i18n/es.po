@@ -3,17 +3,14 @@
 # 	* stock_ux
 # 
 # Translators:
-# María Florencia Frigieri Parma, 2024
-# Matias Velazquez, 2024
-# Juan Carreras <jc@adhoc.com.ar>, 2024
 # Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0+e\n"
+"Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 12:12+0000\n"
-"PO-Revision-Date: 2024-03-14 14:45+0000\n"
+"POT-Creation-Date: 2024-12-05 15:20+0000\n"
+"PO-Revision-Date: 2024-11-13 15:07+0000\n"
 "Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
 "MIME-Version: 1.0\n"
@@ -79,7 +76,6 @@ msgstr "Pedidos Pendientes"
 #. module: stock_ux
 #. odoo-python
 #: code:addons/stock_ux/models/stock_picking.py:0
-#, python-format
 msgid ""
 "Be careful about the number of packages you are trying to insert. It may "
 "cause an error when trying to render the 'Shipping Label' template"
@@ -120,8 +116,6 @@ msgid ""
 "Cantidades entregadas a clientes en los últimos 120 días dividido por 4 para"
 " mensualizar (restadas devoluciones)."
 msgstr ""
-"Cantidades entregadas a clientes en los últimos 120 días dividido por 4 para"
-" mensualizar (restadas devoluciones)."
 
 #. module: stock_ux
 #: model:ir.model.fields,help:stock_ux.field_stock_warehouse_orderpoint__warehouse_rotation
@@ -141,7 +135,6 @@ msgstr "Cambiar Ubicaciones"
 #. module: stock_ux
 #. odoo-python
 #: code:addons/stock_ux/wizards/stock_operation_wizard.py:0
-#, python-format
 msgid "Change location must be called from operations of same picking!"
 msgstr ""
 "El cambio de ubicación debe ser llamado desde operaciones de la misma "
@@ -175,13 +168,13 @@ msgstr "Plazo excedido y/o por lo programado"
 #. module: stock_ux
 #: model_terms:ir.ui.view,arch_db:stock_ux.view_picking_form
 msgid "Descripción 2"
-msgstr "Descripción 2"
+msgstr ""
 
 #. module: stock_ux
 #: model_terms:ir.ui.view,arch_db:stock_ux.view_picking_form
 #: model_terms:ir.ui.view,arch_db:stock_ux.view_stock_move_line_detailed_operation_tree
 msgid "Descripción de origen"
-msgstr "Descripción de origen"
+msgstr ""
 
 #. module: stock_ux
 #: model:ir.model.fields,field_description:stock_ux.field_stock_move_line__name
@@ -266,7 +259,6 @@ msgstr "Movimientos en Borrador"
 #. module: stock_ux
 #. odoo-python
 #: code:addons/stock_ux/models/stock_picking.py:0
-#, python-format
 msgid "ERROR: Picking was not sent via email"
 msgstr "ERROR: La transferencia no fue enviada via email"
 
@@ -280,7 +272,6 @@ msgstr "Plantilla de Email"
 msgid ""
 "En Comprobantes de Transferencia mostrar cantidades pendientes de entrega"
 msgstr ""
-"En Comprobantes de Transferencia mostrar cantidades pendientes de entrega"
 
 #. module: stock_ux
 #: model:ir.model.fields,field_description:stock_ux.field_res_config_settings__delivery_slip_use_origin
@@ -290,17 +281,17 @@ msgstr ""
 #. module: stock_ux
 #: model:ir.actions.report,name:stock_ux.action_custom_label_transfer_template_view_pdf
 msgid "Etiqueta de despacho (PDF)"
-msgstr "Etiqueta de despacho (PDF)"
+msgstr ""
 
 #. module: stock_ux
 #: model:ir.actions.report,name:stock_ux.action_custom_label_transfer_template_zpl
 msgid "Etiqueta de despacho (ZPL)"
-msgstr "Etiqueta de despacho (ZPL)"
+msgstr ""
 
 #. module: stock_ux
 #: model:ir.actions.report,name:stock_ux.action_custom_barcode_transfer_template_view_pdf
 msgid "Etiquetas de Productos del picking (ZPL)"
-msgstr "Etiquetas de Productos del picking (ZPL)"
+msgstr ""
 
 #. module: stock_ux
 #: model:ir.model.fields,field_description:stock_ux.field_stock_warehouse_orderpoint__message_follower_ids
@@ -335,7 +326,7 @@ msgstr "Tiene Mensaje"
 #. module: stock_ux
 #: model:ir.model.fields,field_description:stock_ux.field_stock_operation_wizard__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: stock_ux
 #: model:ir.model.fields,help:stock_ux.field_stock_warehouse_orderpoint__message_needaction
@@ -447,7 +438,6 @@ msgstr "Regla de inventario mínimo"
 #. module: stock_ux
 #. odoo-javascript
 #: code:addons/stock_ux/static/src/forecasted_buttons.xml:0
-#, python-format
 msgid "Movements"
 msgstr "Movimientos"
 
@@ -480,6 +470,11 @@ msgstr "No se encontró ningúna transferencia. Creemos una!"
 #: model:ir.model.fields,field_description:stock_ux.field_stock_warehouse_orderpoint__message_needaction_counter
 msgid "Number of Actions"
 msgstr "Número de acciones"
+
+#. module: stock_ux
+#: model:ir.model.fields,field_description:stock_ux.field_stock_picking__number_of_packages
+msgid "Number of Packages"
+msgstr ""
 
 #. module: stock_ux
 #: model:ir.model.fields,field_description:stock_ux.field_stock_warehouse_orderpoint__message_has_error_counter
@@ -574,7 +569,6 @@ msgstr "Problemas de Planificación"
 #. module: stock_ux
 #. odoo-python
 #: code:addons/stock_ux/models/stock_picking.py:0
-#, python-format
 msgid "Please check the email template associated with the picking type."
 msgstr ""
 "Consulte la plantilla de correo electrónico asociada con el tipo de "
@@ -604,7 +598,6 @@ msgstr "Producto Activo"
 #. module: stock_ux
 #. odoo-javascript
 #: code:addons/stock_ux/static/src/forecasted_buttons.xml:0
-#, python-format
 msgid "Product Movements"
 msgstr "Movimientos del Producto"
 
@@ -663,6 +656,11 @@ msgstr "No permitir modificar reservas desde previsto"
 #: model:ir.model,name:stock_ux.model_stock_return_picking
 msgid "Return Picking"
 msgstr "Albarán de devolución"
+
+#. module: stock_ux
+#: model:ir.model.fields,field_description:stock_ux.field_stock_warehouse_orderpoint__reviewed
+msgid "Reviewed"
+msgstr ""
 
 #. module: stock_ux
 #: model:ir.model.fields,field_description:stock_ux.field_stock_warehouse_orderpoint__rotation
@@ -740,7 +738,7 @@ msgstr "Estado"
 #. module: stock_ux
 #: model_terms:ir.ui.view,arch_db:stock_ux.view_picking_type_form
 msgid "Stock"
-msgstr "Stock"
+msgstr ""
 
 #. module: stock_ux
 #: model:ir.model,name:stock_ux.model_stock_move
@@ -760,11 +758,11 @@ msgstr "Regla de inventario"
 #. module: stock_ux
 #: model:ir.model.fields,help:stock_ux.field_stock_warehouse_orderpoint__qty_multiple
 msgid ""
-"The procurement quantity will be rounded up to this multiple.  If it is 0, "
-"the exact quantity will be used."
+"The procurement quantity will be rounded up to a multiple of this field "
+"quantity. If it is 0, it is not rounded."
 msgstr ""
-"La cantidad a abastecer se redondeará a este múltiplo. Si es 0, se utilizará"
-" la cantidad exacta."
+"La cantidad del abastecimiento se redondeará hacia arriba a un múltiplo de "
+"la cantidad en este campo. Si es 0, no se redondeará."
 
 #. module: stock_ux
 #: model_terms:ir.ui.view,arch_db:stock_ux.product_form_view_procurement_button
@@ -794,7 +792,7 @@ msgstr "Actividades de Hoy"
 #. module: stock_ux
 #: model_terms:ir.ui.view,arch_db:stock_ux.view_move_line_tree2
 msgid "Total"
-msgstr "Total"
+msgstr ""
 
 #. module: stock_ux
 #: model:ir.model,name:stock_ux.model_stock_picking
@@ -875,23 +873,24 @@ msgstr "Historial de comunicación del sitio web"
 #: model:ir.model.fields,help:stock_ux.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock goes below the Min Quantity specified for this field,"
-" Odoo generates a procurement to bring the forecasted quantity to the Max "
-"Quantity."
+" Odoo generates a procurement to bring the forecasted quantity above of this"
+" Min Quantity."
 msgstr ""
-"Cuando el stock virtual esté por debajo de la cantidad mínima especificada "
-"en este campo, Odoo generará un abastecimiento para llevar la cantidad "
-"prevista a la cantidad máxima."
+"Cuando el stock virtual desciende por debajo de la cantidad mínima "
+"especificada para este campo, Odoo genera un aprovisionamiento para que la "
+"cantidad prognosticada supere esta cantidad mínima."
 
 #. module: stock_ux
 #: model:ir.model.fields,help:stock_ux.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
 "When the virtual stock goes below the Min Quantity, Odoo generates a "
-"procurement to bring the forecasted quantity to the Quantity specified as "
-"Max Quantity."
+"procurement to bring the forecasted quantity up to (or near to) the Max "
+"Quantity specified for this field (or to Min Quantity, whichever is bigger)."
 msgstr ""
-"Cuando el stock virtual esté por debajo de la cantidad, Odoo generará un "
-"abastecimiento para llevar la cantidad pronosticada a la cantidad "
-"especificada como aquí como máxima."
+"Cuando el stock virtual desciende por debajo de la cantidad mínima, Odoo "
+"genera un aprovisionamiento para llevar la cantidad prognosticada hasta (o "
+"cerca de) la cantidad máxima especificada para este campo (o hasta la "
+"cantidad mínima, la que sea mayor)."
 
 #. module: stock_ux
 #: model:ir.model.fields,help:stock_ux.field_stock_rule__propagate_carrier
@@ -906,7 +905,6 @@ msgstr "Con Cantidad Hecha"
 #. module: stock_ux
 #. odoo-python
 #: code:addons/stock_ux/models/stock_picking.py:0
-#, python-format
 msgid ""
 "You can not delete this pickings because \"Block picking deletion\" is enable on the picking type/s \"%s\" or the state of the picking is not draft or cancel.\n"
 "Picking Ids: %s"
@@ -917,7 +915,6 @@ msgstr ""
 #. module: stock_ux
 #. odoo-python
 #: code:addons/stock_ux/models/stock_picking.py:0
-#, python-format
 msgid ""
 "You can not duplicate a Picking because \"Block Additional Quantity\" is "
 "enable on the picking type \"%s\""
@@ -929,16 +926,14 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_ux/models/stock_move.py:0
 #: code:addons/stock_ux/models/stock_move_line.py:0
-#, python-format
 msgid "You can not transfer more than the initial demand!"
 msgstr "No puede transferir más de la demanda inicial!"
 
 #. module: stock_ux
 #. odoo-python
 #: code:addons/stock_ux/models/stock_move_line.py:0
-#, python-format
-msgid "You can't transfer more quantity than reserved one!"
-msgstr "No puede transferir más cantidad que la reservada!"
+msgid "You can't transfer more quantity than the quantity on stock!"
+msgstr ""
 
 #. module: stock_ux
 #: model_terms:ir.ui.view,arch_db:stock_ux.custom_barcode_transfer_template_view_zpl
