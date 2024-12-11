@@ -4,15 +4,14 @@
 # 
 # Translators:
 # Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024
-# manucep, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0+e\n"
+"Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-04 14:19+0000\n"
-"PO-Revision-Date: 2024-07-29 17:48+0000\n"
-"Last-Translator: manucep, 2024\n"
+"POT-Creation-Date: 2024-12-11 14:02+0000\n"
+"PO-Revision-Date: 2024-12-11 14:02+0000\n"
+"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +22,6 @@ msgstr ""
 #. module: stock_request_ux
 #. odoo-python
 #: code:addons/stock_request_ux/models/stock_request.py:0
-#, python-format
 msgid ""
 "Cancel remaining call for line \"%s\" (id %s), line qty updated from %s to "
 "%s"
@@ -59,7 +57,7 @@ msgstr ""
 #. module: stock_request_ux
 #: model:ir.model.fields,field_description:stock_request_ux.field_stock_request__order_id
 msgid "Order"
-msgstr "Orden"
+msgstr "Pedido"
 
 #. module: stock_request_ux
 #: model:ir.model.fields,field_description:stock_request_ux.field_stock_request__picking_ids
@@ -97,7 +95,6 @@ msgstr "Movimiento de stock"
 
 #. module: stock_request_ux
 #: model:ir.model,name:stock_request_ux.model_stock_request
-#: model:ir.model.fields,field_description:stock_request_ux.field_stock_request_order__stock_request_ids
 msgid "Stock Request"
 msgstr "Solicitud de existencias"
 
@@ -140,20 +137,17 @@ msgstr "Almacén"
 #. module: stock_request_ux
 #. odoo-python
 #: code:addons/stock_request_ux/models/stock_request_abstract.py:0
-#, python-format
 msgid "You have entered a location that is assigned to another company."
 msgstr "Ha introducido una ubicación que está asignada a otra compania."
 
 #. module: stock_request_ux
 #. odoo-python
 #: code:addons/stock_request_ux/models/stock_request_abstract.py:0
-#, python-format
 msgid "You have entered a route that is assigned to another company."
 msgstr "Ha introducido una ruta que está asignada a otra empresa."
 
 #. module: stock_request_ux
 #. odoo-python
 #: code:addons/stock_request_ux/models/stock_request_abstract.py:0
-#, python-format
 msgid "You have entered a warehouse that is assigned to another company."
 msgstr "Ha introducido un almacén que está asignado a otra empresa."
